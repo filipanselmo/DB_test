@@ -17,7 +17,7 @@ INSERT INTO genres(name)
 			('Techno');
 		
 		
-INSERT INTO	genres_artists
+INSERT INTO genres_artists
 	VALUES  (1,1),
 			(3,2),
 			(1,3),
@@ -40,7 +40,7 @@ INSERT INTO albums(name, release_year)
 			('The Wall', 1979);
 		
 		
-INSERT INTO	albums_artists
+INSERT INTO albums_artists
 	VALUES  (1,1),
 			(2,2),
 			(3,3),
@@ -82,7 +82,7 @@ INSERT INTO collections(name, year)
 			('Popular', 2019);		
 		
 		
-INSERT INTO	collections_tracks
+INSERT INTO collections_tracks
 	VALUES  (1,1),
 			(2,2),
 			(3,3),
