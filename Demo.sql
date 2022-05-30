@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS albums_artists (
 
 album_id INTEGER REFERENCES albums(id),
 
-artist_id INTEGER REFERENCES artists(id)
+artist_id INTEGER REFERENCES artists(id),
 
 CONSTRAINT albums_artists_pk PRIMARY KEY (album_id, artist_id)
 
@@ -92,7 +92,7 @@ CREATE TABLE IF NOT EXISTS collections_tracks(
 
 collection_id INTEGER REFERENCES collections(id),
 
-track_id INTEGER REFERENCES tracks(id)
+track_id INTEGER REFERENCES tracks(id),
 
 CONSTRAINT collections_tracks_pk PRIMARY KEY (collection_id, track_id)
 
